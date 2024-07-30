@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nemory Game</title>
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+    <div class="control-buttons">
+        <span>Start Game</span>
+    </div>
+
+
+    <div class="info-container">
+        <div class="name">Hello: <span></span></div>
+        <div class="tries">Wrong Tries: <span>0</span></div>
+    </div>
+
+    <div class="memory-game-blocks">
+
+        <div class="game-block" data-fruits="apple">
+            <div class="face front"></div>
+            <div class="face back">
+                <img class='for-img' src="./images/apple.png" />
+            </div>
+        </div>
+        <div class="game-block" data-fruits="apple">
+            <div class="face front"></div>
+            <div class="face back">
+                <img class='for-img' src="./images/apple.png" />
+            </div>
+        </div>
+
+        <div class="game-block" data-fruits="cocannat">
+            <div class="face front"></div>
+            <div class="face back">
+                <img class='for-img' src="./images/cocannat.jpg" />
+            </div>
+        </div>
+        <div class="game-block" data-fruits="cocannat">
+            <div class="face front"></div>
+            <div class="face back">
+                <img class='for-img' src="./images/cocannat.jpg" />
+            </div>
+        </div>
+
+        <div class="game-block" data-fruits="banana">
+            <div class="face front"></div>
+            <div class="face back">
+                <img class='for-img' src="./images/pnana.jpg" />
+            </div>
+        </div>
+        <div class="game-block" data-fruits="banana">
+            <div class="face front"></div>
+            <div class="face back">
+                <img class='for-img' src="./images/pnana.jpg" />
+            </div>
+        </div>
+
+        <div class="game-block" data-fruits="fig">
+            <div class="face front"></div>
+            <div class="face back">
+                <img class='for-img' src="./images/fig.jpg" />
+            </div>
+        </div>
+        <div class="game-block" data-fruits="fig">
+            <div class="face front"></div>
+            <div class="face back">
+                <img class='for-img' src="./images/fig.jpg" />
+            </div>
+        </div>
+
+        <div class="game-block" data-fruits="grape">
+            <div class="face front"></div>
+            <div class="face back">
+                <img class='for-img' src="./images/grape.jpg" />
+            </div>
+        </div>
+        <div class="game-block" data-fruits="grape">
+            <div class="face front"></div>
+            <div class="face back">
+                <img class='for-img' src="./images/grape.jpg" />
+            </div>
+        </div>
+
+        <div class="game-block" data-fruits="limon">
+            <div class="face front"></div>
+            <div class="face back">
+                <img class='for-img' src="./images/limon.jpg" />
+            </div>
+        </div>
+        <div class="game-block" data-fruits="limon">
+            <div class="face front"></div>
+            <div class="face back">
+                <img class='for-img' src="./images/limon.jpg" />
+            </div>
+        </div>
+
+        <div class="game-block" data-fruits="milon">
+            <div class="face front"></div>
+            <div class="face back">
+                <img class='for-img' src="./images/milon.jpg" />
+            </div>
+        </div>
+        <div class="game-block" data-fruits="milon">
+            <div class="face front"></div>
+            <div class="face back">
+                <img class='for-img' src="./images/milon.jpg" />
+            </div>
+        </div>
+
+        <div class="game-block" data-fruits="orange">
+            <div class="face front"></div>
+            <div class="face back">
+                <img class='for-img' src="./images/orange.jpg" />
+            </div>
+        </div>
+        <div class="game-block" data-fruits="orange">
+            <div class="face front"></div>
+            <div class="face back">
+                <img class='for-img' src="./images/orange.jpg" />
+            </div>
+        </div>
+
+        <div class="game-block" data-fruits="strowpery">
+            <div class="face front"></div>
+            <div class="face back">
+                <img class='for-img' src="./images/strowpery.jpg" />
+            </div>
+        </div>
+        <div class="game-block" data-fruits="strowpery">
+            <div class="face front"></div>
+            <div class="face back">
+                <img class='for-img' src="./images/strowpery.jpg" />
+            </div>
+        </div>
+
+        <div class="game-block" data-fruits="shomam">
+            <div class="face front"></div>
+            <div class="face back">
+                <img class='for-img' src="./images/shomam.jpg" />
+            </div>
+        </div>
+        <div class="game-block" data-fruits="shomam">
+            <div class="face front"></div>
+            <div class="face back">
+                <img class='for-img' src="./images/shomam.jpg" />
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <div class="win-message" style="display: none;">
+        <h1>Congratulations! You Won!</h1>
+    </div>
+    <audio id="success" src="./success-fanfare-trumpets-6185.mp3" controls>
+        Your browser does not support the audio element.
+        </audio>
+    <script src="./js/logic.js"></script>
+</body>
+
+</html>
